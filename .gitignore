@@ -1,0 +1,8 @@
+node_modules/
+dist/
+client/build/
+client/node_modules/
+*.db
+.env
+.DS_Store
+coverage/

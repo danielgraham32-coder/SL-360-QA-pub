@@ -1,0 +1,28 @@
+{
+  "name": "sl-360-qa",
+  "version": "1.0.0",
+  "description": "eLearning review platform that analyzes Storyline 360 and other eLearning courses for grammar, functionality, and design issues",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "build:client": "cd client && npm run build",
+    "test": "node --test src/**/*.test.js",
+    "lint": "eslint src/"
+  },
+  "keywords": ["elearning", "qa", "storyline", "review", "accessibility"],
+  "license": "MIT",
+  "dependencies": {
+    "better-sqlite3": "^11.7.0",
+    "cors": "^2.8.5",
+    "express": "^4.21.0",
+    "puppeteer": "^23.0.0",
+    "uuid": "^10.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^9.0.0"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}
